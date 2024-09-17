@@ -1,2 +1,2 @@
 registro de los clientes
-nombre,telefono, contraseña
+nombre,telefono
