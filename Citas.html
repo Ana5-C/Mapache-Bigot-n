@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Mapache Bigotón</title>
+    <style>
+        body {
+            background-color: #81c583;
+            /* Fondo verde */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            height: 100vh;
+            margin: 0;
+            color: rgba(117, 66, 8, 0.904);
+        }
+
+        .container {
+            background-color: #81c583;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #81c583;
+            width: 500px;
+            text-align: center;
+        }
+
+        .form-container {
+            flex-grow: 1;
+        }
+
+        .form-container h2 {
+            margin-bottom: 40px;
+            font-size: 50px
+        }
+
+        .form-container label {
+            width: 300px;
+            margin-right: 20px;
+            text-align: right;
+            color: black;
+
+        }
+
+        .form-container .form-group {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+
+        }
+        }
+
+        .container .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container button {
+            width: 48%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbería  
+            Mapache Bigotón</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Citas</a></li>  
+
+                    <li><a href="#">Ubicación</a></li>
+                    <li><a href="#">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Agendar cita</h1>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="descripcion">Descripción  
+                    del servicio:</label>
+                <select id="descripcion" name="descripcion">
+                    <option value="corte">Corte</option>
+                    <option value="tratamiento-facial">Tratamiento facial</option>
+                </select>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input   type="time" id="hora" name="hora" required>  
+
+
+                <button type="submit">Agendar</button>
+            </form>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+
+</html>
