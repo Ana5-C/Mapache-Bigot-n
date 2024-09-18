@@ -85,19 +85,19 @@
             <form>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Nombre" >
+                    <input type="text" id="nombre" placeholder="Nombre" required >
                 </div>
                 <div class="form-group">
                     <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" placeholder="Teléfono" >
+                    <input type="tel" id="telefono" placeholder="Teléfono" required>
                 </div>
                 <div class="form-group">
                     <label for="usuario">Nombre de usuario:</label>
-                    <input type="text" id="usuario" placeholder="Nombre de usuario" >
+                    <input type="text" id="usuario" placeholder="Nombre de usuario" aria-required="false">
                 </div>
                 <div class="form-group">
                     <label for="contrasena">Contraseña:</label>
-                    <input type="password" id="contrasena" placeholder="Contraseña" >
+                    <input type="password" id="contrasena" placeholder="Contraseña" aria-required="true" >
                 </div>
                 <div class="buttons">
                     <button type="submit" class="register-btn">Registrar</button>
